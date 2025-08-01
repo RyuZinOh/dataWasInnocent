@@ -1,0 +1,81 @@
+# Bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Test output
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyInstaller
+*.spec
+build/
+dist/
+
+# Logs
+*.log
+
+# IDEs and editor stuff
+.idea/
+*.swp
+*.swo
+
+# Local databases
+*.db
+*.sqlite3
+
+# FastAPI/OpenAPI generated files
+openapi.json
+docs.json
+
+# Jupyter Notebooks (if any)
+.ipynb_checkpoints
+
+# Rust (Maturin/PyO3 related)
+target/
+Cargo.lock
+*.so
+*.pyd
+
+# Pip-tools
+*.txt~  # lock backup
+pip-wheel-metadata/
+
+# Python egg files
+*.egg-info/
+*.egg
+.eggs/
+
+# Wheel packages
+*.whl
+
+# dotenv
+*.env
+.env.*
+
+# Pyright
+pyrightconfig.json
+
+# System files
+Thumbs.db
